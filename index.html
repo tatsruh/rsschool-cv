@@ -1,10 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <link rel="stylesheet" href="style.css" />
+    <title>My CV</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#aboutMe" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Skills" class="nav-link">My Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Education" class="nav-link">My Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Languages" class="nav-link">Languages</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code" class="nav-link">Code Example</a>
+              </li>
+              <li class="nav-item">
+                <a href="#footer" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main maincontainer">
+      <div class="container">
+        <div class="section1">
+          <section class="section" id="aboutMe">
+            <div class="mypicdiv">
+              <img class="myPic" src="me.jpg" alt="myPhoto" />
+            </div>
+            <h1 class="title">Tatiana Rukhavets</h1>
+            <h3 class="title h3">Junior Front-End Developer</h3>
+            <p class="description">
+              I have a bachelor degree in photography, but currently I'm trying
+              to achieve new skills in Front-End development!
+            </p>
+          </section>
+          <section class="section" id="Skills">
+            <h2 class="title">My Skills</h2>
+            <div class="divskills">
+              <ul class="ulskills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script (in progress)</li>
+                <li>GIT</li>
+                <li>Adobe Photoshop</li>
+                <li>Adope Lightroom</li>
+                <li>Adobe Illustrator</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="section2">
+          <section class="section" id="Education">
+            <h2 class="title">My Education</h2>
+            <div class="diveducation">
+              <ul class="uleducation">
+                <li>
+                  <b>University of Warsaw</b>- Photography (bachelor degree)
+                </li>
+                <li>
+                  <b>RS School</b> - Front-End Development course (stage 0) - in
+                  progress
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="section" id="Languages">
+            <h2 class="title">Languages I speak</h2>
+            <ul class="ullang">
+              <li>English - B2 (certificate)</li>
+              <li>Russian - native</li>
+              <li>Polish - C1</li>
+              <li>French - B1</li>
+            </ul>
+          </section>
+          <section class="section" id="code">
+            <h2 class="title">Code Example</h2>
+            <div>
+              <code>
+                <code class="code">
+                  function Sum () { this.ask = function () { this.a = +prompt('
+                  ', 0); this.b = +prompt(' ', 0); } this.sum = function() {
+                  this.sum = this.a + this.b; return alert (this.sum); }
+                </code>
+              </code>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer2">
+          <a href="https://github.com/tatsruh" target="_blank">
+            <img
+              class="imggit"
+              src="https://i.pinimg.com/originals/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.png"
+              alt="github"
+            />
+          </a>
+
+          <a href="https://rs.school/js/" target="_blank">
+            <img
+              class="rssimg"
+              src="https://rs.school/images/partners/logo-rs.svg"
+              alt="rsschool"
+            />
+          </a>
+          <span class="year"> 2022 </span>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
