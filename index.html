@@ -10,23 +10,97 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="" class="nav-link">Contacts</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Summary</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Skills</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="navbar">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="" class="nav-link">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Summary</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Skills</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
-    <main class="main">
-      <div class="container"></div>
+    <main class="main" class="maincontainer">
+      <div class="container">
+        <div class="section1">
+          <section class="section" id="aboutMe">
+            <div class="mypicdiv">
+              <img class="myPic" src="me.jpg" alt="myPhoto" />
+            </div>
+            <h1 class="title" class="h1">Tatiana Rukhavets</h1>
+            <h3 class="title" class="h3">Junior Front-End Developer</h3>
+            <p class="description">
+              I have a bachelor degree in photography, but currently I'm trying
+              to achieve new skills in Front-End development!
+            </p>
+          </section>
+          <section class="section" id="Skills">
+            <h1 class="title" class="h1">My Skills</h1>
+            <div class="divskills">
+              <ul class="ulskills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script (in progress)</li>
+                <li>GIT</li>
+                <li>Adobe Photoshop</li>
+                <li>Adope Lightroom</li>
+                <li>Adobe Illustrator</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="section2">
+          <section class="section" id="Education">
+            <h1 class="title" class="h1">My Education</h1>
+            <div class="diveducation">
+              <ul class="uleducation">
+                <li>
+                  <b>University of Warsaw</b>- Photography (bachelor degree)
+                </li>
+                <li>
+                  <b>RS School</b> - Front-End Development course (stage 0) - in
+                  progress
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="section" id="Languages">
+            <h1 class="title">Languages I speak</h1>
+            <ul class="ullang">
+              <li>English - B2 (certificate)</li>
+              <li>Russian - native</li>
+              <li>Polish - C1</li>
+              <li>French - B1</li>
+            </ul>
+          </section>
+          <section class="section" id="code">
+            <h1 class="title">Code Example</h1>
+            <div>
+              <code>
+                <pre class="code">
+
+                function Sum () { 
+                  this.ask = function () { 
+                    this.a = +prompt(' ', 0); 
+                    this.b = +prompt(' ', 0); 
+                  } 
+                  this.sum = function() { 
+                    this.sum = this.a + this.b; 
+                    return alert (this.sum); 
+                  }
+                </pre>
+              </code>
+            </div>
+          </section>
+        </div>
+      </div>
     </main>
     <footer class="footer">
       <div class="container"></div>

@@ -1,10 +1,30 @@
 body {
   display: flex;
+  width: 100%;
+  background-color: #ffefdf;
+  font-size: 16px;
   flex-direction: column;
   justify-content: space-between;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+  .section {
+    width: 100%;
+  }
 }
 * {
   box-sizing: border-box;
+}
+.section1 {
+  width: 50%;
+}
+.section2 {
+  width: 50%;
 }
 .nav-list {
   display: flex;
@@ -16,6 +36,89 @@ body {
   margin: 0px 20px;
 }
 .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   max-width: 1440px;
   margin: 0 auto;
+}
+.maincontainer {
+  display: flex;
+}
+
+.section {
+  width: 50%;
+  margin: 50px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.h1 {
+  font-size: 20px;
+}
+h3 {
+  font-weight: 300;
+}
+
+.myPic {
+  width: 200px;
+  border-radius: 100px;
+}
+.mypicdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divskills {
+  background-color: #ffb368;
+  padding: 10px;
+  margin-top: 20px;
+}
+.ulskills {
+  font-size: 18px;
+}
+
+#education {
+  justify-content: flex-end;
+}
+.uleducation {
+  font-size: 18px;
+  padding: 5px;
+  text-align: justify;
+  line-height: 1.5;
+}
+.ullang {
+  font-size: 18px;
+  padding: 5px;
+  text-align: justify;
+  line-height: 1.5;
+}
+.code {
+  background-color: rgb(199, 199, 199);
+  text-align: left;
+  font-weight: 200;
+}
+code {
+  display: flex;
+  align-items: center;
+}
+#code {
+  margin-top: -30px;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  justify-items: flex-start;
+  background-color: #753c00;
 }
