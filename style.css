@@ -1,0 +1,29 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.navbar {
+    background: rgb(226,55,22);
+    background: linear-gradient(90deg, rgba(226,55,22,1) 0%, rgba(31,134,255,1) 54%, rgba(21,244,218,1) 100%);
+    padding-left: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.gh_logo {
+    width: 50px;
+   
+}
+.links > span {
+    font-size: 25px;
+    margin-right: 150px;
+}
