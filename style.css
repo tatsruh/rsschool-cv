@@ -8,6 +8,7 @@
   padding: 0;
   scroll-behavior: smooth;
 }
+
 h1 {
   font-size: 50px;
   padding-bottom: 30px;
@@ -75,6 +76,7 @@ p {
 h2 {
   font-size: 30px;
   padding-bottom: 15px;
+  padding-top: 10px;
 }
 .skills_box {
   width: 400px;
