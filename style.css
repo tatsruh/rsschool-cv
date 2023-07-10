@@ -1,29 +1,89 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
-    color: black;
-    
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: black;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+h1 {
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+li {
+  list-style-type: none;
+  font-weight: 500;
 }
 
+p {
+  font-weight: 400;
+}
 /* header */
 .navbar {
-    background: rgb(226,55,22);
-    background: linear-gradient(90deg, rgba(226,55,22,1) 0%, rgba(31,134,255,1) 54%, rgba(21,244,218,1) 100%);
-    padding-left: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+  background: rgb(226, 55, 22);
+  background: linear-gradient(
+    90deg,
+    rgba(226, 55, 22, 1) 0%,
+    rgba(31, 134, 255, 1) 54%,
+    rgba(21, 244, 218, 1) 100%
+  );
+  padding-left: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .gh_logo {
-    width: 50px;
-   
+  width: 50px;
 }
-.links > span {
-    font-size: 25px;
-    margin-right: 150px;
+.li_list {
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 150px;
+}
+
+.ul_list {
+  display: flex;
+  flex-direction: row;
+}
+/* main */
+.mypic {
+  width: 300px;
+}
+.about_me {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+.skills {
+  background: rgb(226, 55, 22);
+  background: linear-gradient(
+    90deg,
+    rgba(226, 55, 22, 1) 0%,
+    rgba(31, 134, 255, 1) 54%,
+    rgba(21, 244, 218, 1) 100%
+  );
+  align-items: start;
+}
+h2 {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.skills_box {
+  width: 400px;
+}
+/* footer */
+.footer {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
 }
